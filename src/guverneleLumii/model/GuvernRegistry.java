@@ -1,4 +1,6 @@
-package guvernelelumii.model;
+package guverneleLumii.model;
+
+import singleton.Guvern;
 
 import java.util.HashMap;
 import java.util.Map;

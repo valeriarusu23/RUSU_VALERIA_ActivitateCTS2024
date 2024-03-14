@@ -7,6 +7,9 @@ public class Guvern {
     private int nrLuni;
     private static Guvern instanta = null;
 
+    public Guvern(String numeTara, String numePrimMinistru, int nrGuvernatori) {
+    }
+
     public void setNrGuveratori(int nrGuveratori) {
         NrGuveratori = nrGuveratori;
     }
@@ -19,7 +22,7 @@ public class Guvern {
         this.nrLuni = nrLuni;
     }
 
-    private Guvern(int nrGuveratori, String numePrimMininstru, int nrLuni) {
+    public Guvern(int nrGuveratori, String numePrimMininstru, int nrLuni) {
         NrGuveratori = nrGuveratori;
         this.numePrimMininstru = numePrimMininstru;
         this.nrLuni = nrLuni;

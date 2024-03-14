@@ -1,7 +1,7 @@
-package guvernelelumii.main;
+package guverneleLumii.main;
 
 
-import guvernelelumii.model.GuvernRegistry;
+import guverneleLumii.model.GuvernRegistry;
 
 public class Program {
     public static void main(String[] args) {
